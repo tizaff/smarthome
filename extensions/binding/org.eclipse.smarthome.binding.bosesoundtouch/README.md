@@ -96,7 +96,7 @@ Dimmer  Bose1_Volume                     "Volume: [%d %%]"      <volume>      { 
 Number  Bose1_Bass                       "Bass: [%d %%]"        <volume>      { channel="bosesoundtouch:device:demo:bass" }
 Switch  Bose1_Mute                       "Mute: [%s]"           <volume_mute> { channel="bosesoundtouch:device:demo:mute" }
 String  Bose1_OperationMode              "OperationMode: [%s]"  <text>        { channel="bosesoundtouch:device:demo:operationMode" }
-String  Bose1_PlayerControl              "Player Control: [%s]" <text>        { channel="bosesoundtouch:device:demo:playerControl" }
+Player  Bose1_PlayerControl              "Player Control: [%s]" <text>        { channel="bosesoundtouch:device:demo:playerControl" }
 Number  Bose1_Preset                     "Preset: [%d]"         <text>        { channel="bosesoundtouch:device:demo:preset" }
 Number  Bose1_SaveAsPreset               "Save as Preset: [%d]" <text>        { channel="bosesoundtouch:device:demo:saveAsPreset" }
 String  Bose1_KeyCode                    "Key Code: [%s]"       <text>        { channel="bosesoundtouch:device:demo:keyCode" }
